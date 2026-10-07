@@ -4,7 +4,6 @@
 # symbol | needed by
 CoinJamTask | meteorshower.so
 FlatEarth | meteorshower.so
-Heartbeat_WaitForAll(unsigned long, bool) | meteorshower.so
 NetGlobals::NetSpriteUnRegister(NetSprite*, unsigned char) | meteorshower.so
 NetGlobals::GetScore(int) | meteorshower.so
 SharedTimer::Pause() | meteorshower.so
@@ -23,9 +22,6 @@ FlatlandWorld::IsPaused() | meteorshower.so
 FlatlandWorld::SetTimer(unsigned long) | meteorshower.so
 FlatlandWorld::FlatlandWorld() | meteorshower.so
 FlatlandWorld::~FlatlandWorld() | meteorshower.so
-CoinJamManager::RegisterCallback(void (*)(bool)) | meteorshower.so
-CoinJamManager::UnregisterCallback(void (*)(bool)) | meteorshower.so
-CoinJamManager::Instance() | meteorshower.so
 FlatlandObject::ClearByAngle(long, double, double, double) | meteorshower.so
 FlatlandObject::ManualCallBack(unsigned char, FlatlandObject*) | meteorshower.so
 FlatlandObject::InstallCallBackFxn(unsigned char, void (*)(FlatlandObject*, void*, FlatlandObject*, void*), void*) | meteorshower.so
@@ -36,17 +32,11 @@ FlatlandObject::CreateAt(unsigned long) | meteorshower.so
 FlatlandObject::DeleteMe() | meteorshower.so
 FlatlandObject::SetAngle(long, float) | meteorshower.so
 FlatlandObject::FlatlandObject(float, Bitmap*) | meteorshower.so
-MyMeritManager::GetGameLevel(xml_gameinfo::GameIds) | meteorshower.so
-MyMeritManager::SetGameLevel(xml_gameinfo::GameIds, int) | meteorshower.so
-MyMeritManager::Instance() | meteorshower.so
 vector2::magnitude() | meteorshower.so
 vector2::vector2(int const&, int const&) | meteorshower.so
 vector2::vector2() | meteorshower.so
-MyMeritManager::PlayerLoaded() const | meteorshower.so
-MyMeritManager::Name() const | meteorshower.so
 operator/(vector2 const&, double const&) | meteorshower.so
 operator-(vector2 const&, vector2 const&) | meteorshower.so
 operator*(vector2 const&, double const&) | meteorshower.so
 operator+=(vector2&, vector2 const&) | meteorshower.so
 operator+(vector2 const&, vector2 const&) | meteorshower.so
-voice_stop | meteorshower.so
