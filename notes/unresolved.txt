@@ -4,7 +4,6 @@
 # symbol | needed by
 CoinJamTask | meteorshower.so
 FlatEarth | meteorshower.so
-NetGlobals::NetSpriteUnRegister(NetSprite*, unsigned char) | meteorshower.so
 NetGlobals::GetScore(int) | meteorshower.so
 SharedTimer::Pause() | meteorshower.so
 SharedTimer::Start() | meteorshower.so
