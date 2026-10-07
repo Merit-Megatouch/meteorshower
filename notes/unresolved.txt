@@ -4,31 +4,9 @@
 # symbol | needed by
 CoinJamTask | meteorshower.so
 FlatEarth | meteorshower.so
-LinkContinueSetting | meteorshower.so
-NetGlob | meteorshower.so
-WhoWeArePlaying | meteorshower.so
-FileExists(char const*) | meteorshower.so
-Heartbeat_Stop() | meteorshower.so
-GetHelpFileName(char (&) [255], char const*, Locale::Languages, char const*) | meteorshower.so
-Heartbeat_Check(int, int) | meteorshower.so
-ScreenIsTouched() | meteorshower.so
 Heartbeat_WaitForAll(unsigned long, bool) | meteorshower.so
-GetMyId() | meteorshower.so
-PlayWave(char*, unsigned short, int, int, int, bool) | meteorshower.so
-GetMaster() | meteorshower.so
-NetGlobals::ProcNetClicks() | meteorshower.so
 NetGlobals::NetSpriteUnRegister(NetSprite*, unsigned char) | meteorshower.so
 NetGlobals::GetScore(int) | meteorshower.so
-WorldClass::RefreshArea(int, int, int, int) | meteorshower.so
-WorldClass::CopyCompBitmap(Bitmap*, int, int, int, int, int, int, int, int, int, int, bool) | meteorshower.so
-WorldClass::AnimationFrames(Bitmap*) | meteorshower.so
-WorldClass::LoadBmp(char const*, int, float, int, int, bool, bool, Bitmap*) | meteorshower.so
-WorldClass::SetBack(Bitmap*, int) | meteorshower.so
-WorldClass::ShowAll() | meteorshower.so
-WorldClass::GetFrame(Bitmap*, int) | meteorshower.so
-WorldClass::DeleteBmp(Bitmap*, unsigned char) | meteorshower.so
-WorldClass::PlayMovie(int, unsigned long, void (*)(unsigned char), unsigned char, bool, bool, bool, bool) | meteorshower.so
-WorldClass::WorldClass() | meteorshower.so
 SharedTimer::Pause() | meteorshower.so
 SharedTimer::Start() | meteorshower.so
 SharedTimer::GetTick() | meteorshower.so
@@ -61,66 +39,14 @@ FlatlandObject::FlatlandObject(float, Bitmap*) | meteorshower.so
 MyMeritManager::GetGameLevel(xml_gameinfo::GameIds) | meteorshower.so
 MyMeritManager::SetGameLevel(xml_gameinfo::GameIds, int) | meteorshower.so
 MyMeritManager::Instance() | meteorshower.so
-ContinueControl::display(unsigned int, unsigned int, bool (*)()) | meteorshower.so
-Group::Signal(Group::SpriteSignalType) | meteorshower.so
-Group::Signal(SpriteSignal*) | meteorshower.so
-Group::Message(Group::SpriteSignalType) | meteorshower.so
-Group::Message(SpriteSignal*) | meteorshower.so
-Bitmap::Compress(bool, int, unsigned short*) | meteorshower.so
-EventO::GetType() | meteorshower.so
-EventO::EventO() | meteorshower.so
-EventO::~EventO() | meteorshower.so
-Sprite::DoNextFrame() | meteorshower.so
-Sprite::SpriteClick() | meteorshower.so
-Sprite::AssignString(String*, unsigned long) | meteorshower.so
-Sprite::ChangeString(char const*, unsigned long) | meteorshower.so
-Sprite::ClicksEnabled | meteorshower.so
-Sprite::LastEventTime() | meteorshower.so
-Sprite::DeleteAfterLast(unsigned long) | meteorshower.so
-Sprite::EnableAllClicks(unsigned long) | meteorshower.so
-Sprite::DisableAllClicks(unsigned long) | meteorshower.so
-Sprite::CreateTextDropShadow(float, float, unsigned long, int, int, int) | meteorshower.so
-Sprite::RunDiskAnimThenDelete(char const*, unsigned long, float, unsigned long, bool) | meteorshower.so
-Sprite::Move(int, int, int, int, int, int, unsigned long, unsigned long, unsigned char) | meteorshower.so
-Sprite::Reset() | meteorshower.so
-Sprite::DoDraw() | meteorshower.so
-Sprite::Enable(unsigned long) | meteorshower.so
-Sprite::FadeIn(unsigned long, unsigned long, int, int) | meteorshower.so
-Sprite::SetBmp(Bitmap*, unsigned long) | meteorshower.so
-Sprite::Signal(Group::SpriteSignalType) | meteorshower.so
-Sprite::Signal(SpriteSignal*) | meteorshower.so
-Sprite::Disable(unsigned long, bool) | meteorshower.so
-Sprite::FadeOut(unsigned long, unsigned long, int, int) | meteorshower.so
-Sprite::Message(Group::SpriteSignalType) | meteorshower.so
-Sprite::Message(SpriteSignal*) | meteorshower.so
-Sprite::RunAnim(Bitmap*, int, int, int, unsigned long, float, unsigned long, int) | meteorshower.so
-Sprite::SetCord(float, float, float, unsigned long) | meteorshower.so
-Sprite::SetSize(int, int) | meteorshower.so
-Sprite::AddEvent(EventO*) | meteorshower.so
-Sprite::SetAlpha(int, unsigned long) | meteorshower.so
-Sprite::DoCommand(int) | meteorshower.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | meteorshower.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | meteorshower.so
-Sprite::~Sprite() | meteorshower.so
-String::String(char const*, int, char const*, int, signed char, int, int, int, unsigned char, unsigned char, unsigned short) | meteorshower.so
 vector2::magnitude() | meteorshower.so
 vector2::vector2(int const&, int const&) | meteorshower.so
 vector2::vector2() | meteorshower.so
-NetSprite::SendPacket(unsigned char) | meteorshower.so
-NetSprite::NetSprite(Bitmap*, unsigned short, unsigned char, unsigned short) | meteorshower.so
-NetSprite::~NetSprite() | meteorshower.so
 MyMeritManager::PlayerLoaded() const | meteorshower.so
 MyMeritManager::Name() const | meteorshower.so
-typeinfo for EventO | meteorshower.so
-typeinfo for Sprite | meteorshower.so
-typeinfo for NetSprite | meteorshower.so
-vtable for DOSLinuxWorld | meteorshower.so
 operator/(vector2 const&, double const&) | meteorshower.so
 operator-(vector2 const&, vector2 const&) | meteorshower.so
 operator*(vector2 const&, double const&) | meteorshower.so
 operator+=(vector2&, vector2 const&) | meteorshower.so
 operator+(vector2 const&, vector2 const&) | meteorshower.so
-_rgb_b_shift_16 | meteorshower.so
-_rgb_g_shift_16 | meteorshower.so
-_rgb_r_shift_16 | meteorshower.so
 voice_stop | meteorshower.so
